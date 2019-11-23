@@ -1,47 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9202ddd-0f3f-4f23-a5fe-7e7b91a5c232" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot/.idea/hellospring-boot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellospring-boot/hellospring-boot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/indexDir/_e.cfe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/indexDir/_e.cfs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/indexDir/_e.si" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/indexDir/_e_1.del" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/indexDir/segments.gen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/indexDir/segments_g" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/indexDir/write.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/src/main/java/cn/itcast/lucene/IndexCreateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/src/main/java/cn/itcast/lucene/IndexDeleteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/src/main/java/cn/itcast/lucene/IndexQueryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/src/main/java/cn/itcast/lucene/IndexSuperQueryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/src/main/resources/IKAnalyzer.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/src/main/resources/ext.dic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene/src/main/resources/stopword.dic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospring-boot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring-boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospring-boot/src/main/java/cn/itcast/springboot/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring-boot/src/main/java/cn/itcast/springboot/StartApplication.java" afterDir="false" />
+    <list default="true" id="f9202ddd-0f3f-4f23-a5fe-7e7b91a5c232" name="Default Changelist" comment="乐优项目之前的学习内容(springboot,lucene内容已完成)">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hellospring-boot/target/" />
     <ignored path="$PROJECT_DIR$/lucene/target/" />
+    <ignored path="$PROJECT_DIR$/SpringDataEsDemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +20,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/test/java/cn/itcast/es/test/EsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/pojo/Goods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/repository/GoodsRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hellospring-boot" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/EsDemo.java" />
+        <option value="$PROJECT_DIR$/SpringDataEsDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/repository/GoodsRepository.java" />
+        <option value="$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/pojo/Goods.java" />
+        <option value="$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/SpringDataEsDemo/src/test/java/cn/itcast/es/test/EsTest.java" />
       </list>
     </option>
   </component>
@@ -88,18 +120,21 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GBK" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="765" />
-    <option name="y" value="63" />
+    <option name="x" value="825" />
+    <option name="y" value="51" />
     <option name="width" value="1170" />
-    <option name="height" value="912" />
+    <option name="height" value="914" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,18 +147,122 @@
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
               <item name="hellospring-boot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringDataEsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../health86study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -145,6 +284,104 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.EsTest.testAggs">
+    <configuration name="EsTest.addDocuments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataEsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.es.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.es.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.es.test.EsTest" />
+      <option name="METHOD_NAME" value="addDocuments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsTest.testAddData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataEsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.es.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.es.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.es.test.EsTest" />
+      <option name="METHOD_NAME" value="testAddData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsTest.testAggs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataEsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.es.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.es.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.es.test.EsTest" />
+      <option name="METHOD_NAME" value="testAggs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsTest.testQueryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataEsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.es.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.es.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.es.test.EsTest" />
+      <option name="METHOD_NAME" value="testQueryById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsTest.testQueryBySelf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataEsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.es.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.es.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.es.test.EsTest" />
+      <option name="METHOD_NAME" value="testQueryBySelf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringDataEsDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.EsDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EsTest.testAggs" />
+        <item itemvalue="JUnit.EsTest.testQueryBySelf" />
+        <item itemvalue="JUnit.EsTest.testQueryById" />
+        <item itemvalue="JUnit.EsTest.addDocuments" />
+        <item itemvalue="JUnit.EsTest.testAddData" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\77506\AppData\Roaming\Subversion</configuration>
   </component>
@@ -155,49 +392,96 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574261122066</updated>
-      <workItem from="1574261126727" duration="909000" />
+      <workItem from="1574261126727" duration="1322000" />
+      <workItem from="1574296278408" duration="1139000" />
+      <workItem from="1574317565973" duration="216000" />
+      <workItem from="1574425661619" duration="3867000" />
+      <workItem from="1574514175891" duration="5885000" />
     </task>
+    <task id="LOCAL-00001" summary="乐优项目之前的学习内容(springboot,lucene内容已完成)">
+      <created>1574262115470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574262115470</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="EsTest_testAddData - 2019.11.23 at 21h 57m 26s.xml">
+      <configuration name="EsTest.testAddData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_testAddData - 2019.11.23 at 22h 00m 57s.xml">
+      <configuration name="EsTest.testAddData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_testAddData - 2019.11.23 at 22h 01m 41s.xml">
+      <configuration name="EsTest.testAddData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_testCreateIndexes - 2019.11.23 at 22h 02m 12s.xml">
+      <configuration name="EsTest.testCreateIndexes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_testAddMapping - 2019.11.23 at 22h 02m 38s.xml">
+      <configuration name="EsTest.testAddMapping" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_testAddData - 2019.11.23 at 22h 02m 57s.xml">
+      <configuration name="EsTest.testAddData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_addDocuments - 2019.11.23 at 22h 04m 02s.xml">
+      <configuration name="EsTest.addDocuments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_testQueryById - 2019.11.23 at 22h 05m 06s.xml">
+      <configuration name="EsTest.testQueryById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_testQueryBySelf - 2019.11.23 at 22h 26m 35s.xml">
+      <configuration name="EsTest.testQueryBySelf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_testQueryBySelf - 2019.11.23 at 22h 27m 10s.xml">
+      <configuration name="EsTest.testQueryBySelf" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="909000" />
+    <option name="totallyTimeSpent" value="12213000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="612" y="51" width="936" height="729" extended-state="0" />
+    <frame x="585" y="43" width="936" height="731" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21867882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26993167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58076227" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.3297587" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32971016" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,15 +489,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="乐优项目之前的学习内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="乐优项目之前的学习内容" />
+    <MESSAGE value="乐优项目之前的学习内容(springboot,lucene内容已完成)" />
+    <option name="LAST_COMMIT_MESSAGE" value="乐优项目之前的学习内容(springboot,lucene内容已完成)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/beforeLeU.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pom.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -221,10 +504,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene/src/main/java/cn/itcast/lucene/IndexCreateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene/src/main/java/cn/itcast/lucene/IndexQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/hellospring-boot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="1084">
+          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/EsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/repository/GoodsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/test/java/cn/itcast/es/test/EsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
