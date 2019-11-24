@@ -3,4 +3,9 @@ spring:
     elasticsearch:
       cluster-name: elasticsearch
       cluster-nodes: 192.168.133.129:9300
+  jackson: #配置消息转换时，如果属性的值为null，则这个属性不输出
+    default-property-inclusion: non_null
 
+logging:
+  level:
+    org.springframework: debug

@@ -7,6 +7,7 @@ import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.elasticsearch.search.aggregations.Aggregations;
 import org.elasticsearch.search.aggregations.bucket.terms.StringTerms;
+import org.elasticsearch.search.aggregations.metrics.avg.InternalAvg;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -148,5 +149,44 @@ public class EsTest {
             System.out.println(key+" 有 "+docCount+" 个");
         }
     }
+
+    @Test
+    public void testSubAggs(){
+        //查询构建工具
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+
+        //添加聚合条件
+        queryBuilder.addAggregation(
+                AggregationBuilders.terms("brands").field("brand")
+                        .subAggregation(AggregationBuilders.avg("avg_price").field("price")));
+
+        //执行查询，获取到聚合结果
+        AggregatedPage<Goods> goodsAggregatedPage = this.elasticsearchTemplate.queryForPage(queryBuilder.build(), Goods.class);
+
+        //获取到所有的聚合结果
+        Aggregations aggregations = goodsAggregatedPage.getAggregations();
+
+        //根据聚合结果的名称获取对应的聚合
+        StringTerms brands = aggregations.get("brands");
+
+
+        List<StringTerms.Bucket> buckets = brands.getBuckets();
+
+
+        buckets.forEach(bucket -> {
+            String key = bucket.getKeyAsString();
+
+            long docCount = bucket.getDocCount();
+
+            //获取子聚合中的所有内容，然后，根据聚合名称依次获取，一定要注意聚合的返回类型
+            InternalAvg internalAvg = bucket.getAggregations().get("avg_price");
+
+            double value = internalAvg.getValue();
+
+            System.out.println(key+" 有 "+docCount+" 个 ,平均价格："+value);
+        });
+
+    }
+
 
 }

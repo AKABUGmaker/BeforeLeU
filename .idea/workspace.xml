@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9202ddd-0f3f-4f23-a5fe-7e7b91a5c232" name="Default Changelist" comment="乐优项目之前的学习内容(springboot,lucene内容已完成)">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f9202ddd-0f3f-4f23-a5fe-7e7b91a5c232" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDataEsDemo/src/test/java/cn/itcast/es/test/EsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDataEsDemo/src/test/java/cn/itcast/es/test/EsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="220">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -36,20 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/test/java/cn/itcast/es/test/EsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/pojo/Goods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="288">
+              <caret line="183" column="15" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,11 +105,11 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GBK" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="825" />
-    <option name="y" value="51" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="760" />
+    <option name="y" value="97" />
     <option name="width" value="1170" />
-    <option name="height" value="914" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -135,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,8 +238,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EsTest.testAggs">
+  <component name="RunManager" selected="JUnit.EsTest.testSubAggs">
     <configuration name="EsTest.addDocuments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringDataEsDemo" />
       <extension name="coverage">
@@ -296,22 +282,6 @@
       <option name="PACKAGE_NAME" value="cn.itcast.es.test" />
       <option name="MAIN_CLASS_NAME" value="cn.itcast.es.test.EsTest" />
       <option name="METHOD_NAME" value="addDocuments" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EsTest.testAddData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringDataEsDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.es.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.es.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.es.test.EsTest" />
-      <option name="METHOD_NAME" value="testAddData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -365,6 +335,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EsTest.testSubAggs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataEsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.es.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.es.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.es.test.EsTest" />
+      <option name="METHOD_NAME" value="testSubAggs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EsDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringDataEsDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.EsDemo" />
@@ -374,11 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EsTest.testSubAggs" />
         <item itemvalue="JUnit.EsTest.testAggs" />
         <item itemvalue="JUnit.EsTest.testQueryBySelf" />
         <item itemvalue="JUnit.EsTest.testQueryById" />
         <item itemvalue="JUnit.EsTest.addDocuments" />
-        <item itemvalue="JUnit.EsTest.testAddData" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +382,8 @@
       <workItem from="1574296278408" duration="1139000" />
       <workItem from="1574317565973" duration="216000" />
       <workItem from="1574425661619" duration="3867000" />
-      <workItem from="1574514175891" duration="5885000" />
+      <workItem from="1574514175891" duration="6709000" />
+      <workItem from="1574556277188" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="乐优项目之前的学习内容(springboot,lucene内容已完成)">
       <created>1574262115470</created>
@@ -405,16 +392,17 @@
       <option name="project" value="LOCAL" />
       <updated>1574262115470</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="乐优项目之前的学习内容(springboot,lucene内容已完成,es未完成)">
+      <created>1574520453773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574520453773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EsTest_testAddData - 2019.11.23 at 21h 57m 26s.xml">
-      <configuration name="EsTest.testAddData" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EsTest_testAddData - 2019.11.23 at 22h 00m 57s.xml">
-      <configuration name="EsTest.testAddData" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EsTest_testAddData - 2019.11.23 at 22h 01m 41s.xml">
       <configuration name="EsTest.testAddData" configurationId="JUnit" />
     </history-entry>
@@ -439,15 +427,20 @@
     <history-entry file="EsTest_testQueryBySelf - 2019.11.23 at 22h 27m 10s.xml">
       <configuration name="EsTest.testQueryBySelf" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EsTest_testAggs - 2019.11.23 at 22h 45m 22s.xml">
+      <configuration name="EsTest.testAggs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EsTest_testSubAggs - 2019.11.24 at 09h 08m 03s.xml">
+      <configuration name="EsTest.testSubAggs" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12213000" />
+    <option name="totallyTimeSpent" value="15319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="585" y="43" width="936" height="731" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26993167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14343163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -458,7 +451,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.58076227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.9447514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -490,7 +483,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="乐优项目之前的学习内容" />
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene内容已完成)" />
-    <option name="LAST_COMMIT_MESSAGE" value="乐优项目之前的学习内容(springboot,lucene内容已完成)" />
+    <MESSAGE value="乐优项目之前的学习内容(springboot,lucene内容已完成,es未完成)" />
+    <option name="LAST_COMMIT_MESSAGE" value="乐优项目之前的学习内容(springboot,lucene内容已完成,es未完成)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/beforeLeU.iml">
@@ -554,20 +548,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/pojo/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="346">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -583,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/test/java/cn/itcast/es/test/EsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        <state relative-caret-position="288">
+          <caret line="183" column="15" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
