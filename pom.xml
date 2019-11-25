@@ -12,6 +12,8 @@
         <module>hellospring-boot</module>
         <module>lucene</module>
         <module>SpringDataEsDemo</module>
+        <module>cloud-demo</module>
+        <module>http-demo</module>
     </modules>
 
 
