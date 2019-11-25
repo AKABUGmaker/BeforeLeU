@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9202ddd-0f3f-4f23-a5fe-7e7b91a5c232" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospring-boot" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring-boot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring-boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospring-boot/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospring-boot/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring-boot/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-demo/eureka-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="242">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -78,7 +71,6 @@
         <option value="$PROJECT_DIR$/hellospring-boot/src/main/resources/mappers/UserMapper.xml" />
         <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/pojo/User.java" />
         <option value="$PROJECT_DIR$/cloud-demo/eureka-service/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-demo/eureka-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-demo/eureka-service/src/main/java/cn/itcast/demo/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/cloud-demo/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-demo/user-consuer/pom.xml" />
@@ -87,6 +79,7 @@
         <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserController.java" />
         <option value="$PROJECT_DIR$/cloud-demo/user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-demo/eureka-service/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -510,7 +503,7 @@
       <workItem from="1574514175891" duration="6709000" />
       <workItem from="1574556277188" duration="3769000" />
       <workItem from="1574595732735" duration="6514000" />
-      <workItem from="1574642492990" duration="5751000" />
+      <workItem from="1574642492990" duration="6012000" />
     </task>
     <task id="LOCAL-00001" summary="乐优项目之前的学习内容(springboot,lucene内容已完成)">
       <created>1574262115470</created>
@@ -533,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574559341898</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成)">
+      <created>1574648811313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574648811313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -569,7 +569,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29071000" />
+    <option name="totallyTimeSpent" value="29332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="625" y="14" width="936" height="724" extended-state="0" />
@@ -622,7 +622,8 @@
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene内容已完成)" />
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene内容已完成,es未完成)" />
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene,es内容已完成)" />
-    <option name="LAST_COMMIT_MESSAGE" value="乐优项目之前的学习内容(springboot,lucene,es内容已完成)" />
+    <MESSAGE value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成)" />
+    <option name="LAST_COMMIT_MESSAGE" value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/pom.xml" />
@@ -988,8 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-demo/eureka-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="242">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>

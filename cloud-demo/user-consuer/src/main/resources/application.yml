@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: consumer-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5 #修改拉取周期为5秒
