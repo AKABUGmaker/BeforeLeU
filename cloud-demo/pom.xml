@@ -11,6 +11,7 @@
         <module>user-service</module>
         <module>user-consuer</module>
         <module>eureka-service</module>
+        <module>zuul-demo</module>
     </modules>
     <packaging>pom</packaging>
 

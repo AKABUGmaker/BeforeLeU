@@ -14,3 +14,7 @@ eureka:
 user-service: #给ribbon添加局部配置
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+logging:
+  level:
+    cn.itcast: debug

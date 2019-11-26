@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9202ddd-0f3f-4f23-a5fe-7e7b91a5c232" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/clients/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserNewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/zuul-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/java/cn/itcast/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-demo/user-consuer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/user-consuer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospring-boot" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring-boot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospring-boot/src/main/java/cn/itcast/springboot/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring-boot/src/main/java/cn/itcast/springboot/UserFirstApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,6 +26,7 @@
     <ignored path="$PROJECT_DIR$/cloud-demo/user-service/target/" />
     <ignored path="$PROJECT_DIR$/cloud-demo/user-consuer/target/" />
     <ignored path="$PROJECT_DIR$/cloud-demo/eureka-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-demo/zuul-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -94,11 +97,18 @@
         <option value="$PROJECT_DIR$/cloud-demo/user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-demo/user-service/src/main/java/cn/itcast/springboot/service/UserService.java" />
         <option value="$PROJECT_DIR$/cloud-demo/eureka-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserController.java" />
         <option value="$PROJECT_DIR$/cloud-demo/user-consuer/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/cleents/UserClient.java" />
+        <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserNewController.java" />
+        <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/clients/UserClient.java" />
+        <option value="$PROJECT_DIR$/cloud-demo/zuul-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/java/cn/itcast/ZuulApplication.java" />
       </list>
     </option>
   </component>
@@ -130,10 +140,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GBK" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="317" />
-    <option name="y" value="88" />
+    <option name="x" value="488" />
+    <option name="y" value="141" />
     <option name="width" value="1170" />
-    <option name="height" value="857" />
+    <option name="height" value="858" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -145,8 +155,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,60 +173,20 @@
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-consuer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-consuer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-consuer" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -224,7 +194,7 @@
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-consuer" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -233,77 +203,17 @@
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-consuer" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-consuer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-consuer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -356,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserService">
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
     <configuration name="HttpDemoApplicationTests.httpGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="http-demo" />
       <extension name="coverage">
@@ -451,8 +361,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserService" />
         <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.UserService" />
         <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="JUnit.HttpDemoApplicationTests.httpGet" />
         <item itemvalue="Spring Boot.UserFirstApplication" />
@@ -477,7 +387,8 @@
       <workItem from="1574556277188" duration="3769000" />
       <workItem from="1574595732735" duration="6514000" />
       <workItem from="1574642492990" duration="7283000" />
-      <workItem from="1574663097610" duration="9177000" />
+      <workItem from="1574663097610" duration="9259000" />
+      <workItem from="1574773048054" duration="3896000" />
     </task>
     <task id="LOCAL-00001" summary="乐优项目之前的学习内容(springboot,lucene内容已完成)">
       <created>1574262115470</created>
@@ -514,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574648925043</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成,第二天未完成)">
+      <created>1574690654125</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574690654125</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -550,7 +468,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39780000" />
+    <option name="totallyTimeSpent" value="43758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,9 +480,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="71" width="936" height="685" extended-state="0" />
+    <frame x="391" y="113" width="936" height="686" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.2574032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.25398633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -574,9 +492,9 @@
       <window_info id="Favorites" order="7" sideWeight="0.50176054" side_tool="true" weight="0.2574032" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32806325" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.37029704" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.7233202" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290441" />
@@ -612,56 +530,10 @@
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene内容已完成,es未完成)" />
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene,es内容已完成)" />
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成)" />
-    <option name="LAST_COMMIT_MESSAGE" value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成)" />
+    <MESSAGE value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成,第二天未完成)" />
+    <option name="LAST_COMMIT_MESSAGE" value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成,第二天未完成)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/lucene/src/main/java/cn/itcast/lucene/IndexCreateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lucene/src/main/java/cn/itcast/lucene/IndexQueryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lucene/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/EsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/pojo/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../apache-maven-3.6.0-bin/apache-maven-3.6.0/repository/org/springframework/data/spring-data-elasticsearch/3.1.8.RELEASE/spring-data-elasticsearch-3.1.8.RELEASE.jar!/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -883,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-demo/user-service/src/main/java/cn/itcast/springboot/Controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-demo/user-service/src/main/java/cn/itcast/springboot/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -914,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-demo/eureka-service/src/main/java/cn/itcast/demo/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-demo/user-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="641">
@@ -938,16 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-demo/user-service/src/main/java/cn/itcast/springboot/UserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -957,22 +802,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="642">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-demo/user-service/src/main/java/cn/itcast/springboot/UserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -981,11 +819,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="557">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/eureka-service/src/main/java/cn/itcast/demo/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/controller/UserNewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/user-service/src/main/java/cn/itcast/springboot/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/clients/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/java/cn/itcast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/user-consuer/src/main/java/cn/itcast/demo/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/java/cn/itcast/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
