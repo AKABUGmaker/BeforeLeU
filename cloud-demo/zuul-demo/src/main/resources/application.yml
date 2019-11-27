@@ -5,8 +5,16 @@ spring:
   application:
     name: gateway-service
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5 #5秒拉取周期
+
 zuul:
   routes:
-    heima86:
-      path: /user/** #拦截路径
-      url: http://127.0.0.1:8081
+    user-service:  /user/** #前面key是转发服务名称，后面默认不写就是拦截地址和服务名称相同
+
+  ignored-services: #表示忽略这个服务地址拦截
+    - user-service
+  prefix: /api
