@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lucene" />
+        <module name="redis-demo" />
         <module name="SpringDataEsDemo" />
         <module name="http-demo" />
         <module name="hello-springboot" />
@@ -23,6 +24,7 @@
       <module name="eureka-service" options="-parameters" />
       <module name="hello-springboot" options="-parameters" />
       <module name="http-demo" options="-parameters" />
+      <module name="redis-demo" options="-parameters" />
       <module name="user-consuer" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="zuul-demo" options="-parameters" />

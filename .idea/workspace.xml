@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9202ddd-0f3f-4f23-a5fe-7e7b91a5c232" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/zuul-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/zuul-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/java/cn/itcast/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/java/cn/itcast/ZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +19,7 @@
     <ignored path="$PROJECT_DIR$/cloud-demo/user-consuer/target/" />
     <ignored path="$PROJECT_DIR$/cloud-demo/eureka-service/target/" />
     <ignored path="$PROJECT_DIR$/cloud-demo/zuul-demo/target/" />
+    <ignored path="$PROJECT_DIR$/redis-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +34,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="88">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/java/cn/itcast/ZuulApplication.java">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/cn/itcast/RedisDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/test/java/cn/itcast/dedis/test/RedisTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +98,6 @@
         <option value="$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/pojo/Goods.java" />
         <option value="$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/SpringDataEsDemo/src/test/java/cn/itcast/es/test/EsTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/http-demo/src/main/java/com/leyou/httpdemo/pojo/User.java" />
         <option value="$PROJECT_DIR$/hellospring-boot/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/hellospring-boot/pom.xml" />
@@ -114,6 +127,11 @@
         <option value="$PROJECT_DIR$/cloud-demo/zuul-demo/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/java/cn/itcast/ZuulApplication.java" />
         <option value="$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/java/cn/itcast/RedisDemo.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/redis-demo/src/test/java/cn/itcast/dedis/test/RedisTest.java" />
       </list>
     </option>
   </component>
@@ -144,9 +162,9 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GBK" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="766" />
-    <option name="y" value="62" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="717" />
+    <option name="y" value="87" />
     <option name="width" value="1170" />
     <option name="height" value="860" />
   </component>
@@ -161,7 +179,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,61 +189,33 @@
             <path>
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
               <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beforeLeU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beforeLeU" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,18 +260,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
-    <configuration name="HttpDemoApplicationTests.httpGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="http-demo" />
+  <component name="RunManager" selected="JUnit.RedisTest.testHash">
+    <configuration name="RedisTest.redisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leyou.httpdemo.*" />
+          <option name="PATTERN" value="cn.itcast.dedis.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leyou.httpdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.httpdemo.HttpDemoApplicationTests" />
-      <option name="METHOD_NAME" value="httpGet" />
+      <option name="PACKAGE_NAME" value="cn.itcast.dedis.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.dedis.test.RedisTest" />
+      <option name="METHOD_NAME" value="redisTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.dedis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.dedis.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.dedis.test.RedisTest" />
+      <option name="METHOD_NAME" value="testHash" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -308,19 +313,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.demo.EurekaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HttpDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="http-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.httpdemo.HttpDemoApplication" />
@@ -328,15 +320,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserFirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hello-springboot" />
+    <configuration name="RedisDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.springboot.*" />
+          <option name="PATTERN" value="cn.itcast.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.springboot.UserFirstApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.RedisDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -363,22 +355,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HttpDemoApplicationTests.httpGet" />
       <item itemvalue="Spring Boot.EsDemo" />
       <item itemvalue="Spring Boot.HttpDemoApplication" />
-      <item itemvalue="Spring Boot.UserFirstApplication" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.UserService" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.EurekaApplication" />
-      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="JUnit.RedisTest.redisTest" />
+      <item itemvalue="Spring Boot.RedisDemo" />
+      <item itemvalue="JUnit.RedisTest.testHash" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisTest.testHash" />
+        <item itemvalue="JUnit.RedisTest.redisTest" />
+        <item itemvalue="Spring Boot.RedisDemo" />
         <item itemvalue="Spring Boot.ConsumerApplication" />
         <item itemvalue="Spring Boot.UserService" />
-        <item itemvalue="Spring Boot.EurekaApplication" />
-        <item itemvalue="JUnit.HttpDemoApplicationTests.httpGet" />
-        <item itemvalue="Spring Boot.UserFirstApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +395,9 @@
       <workItem from="1574663097610" duration="9259000" />
       <workItem from="1574773048054" duration="3969000" />
       <workItem from="1574815663178" duration="1285000" />
-      <workItem from="1574853003734" duration="2375000" />
+      <workItem from="1574853003734" duration="2569000" />
+      <workItem from="1574857682803" duration="10000" />
+      <workItem from="1575975857507" duration="2989000" />
     </task>
     <task id="LOCAL-00001" summary="乐优项目之前的学习内容(springboot,lucene内容已完成)">
       <created>1574262115470</created>
@@ -454,43 +448,50 @@
       <option name="project" value="LOCAL" />
       <updated>1574777029453</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="乐优前置已完成">
+      <created>1574857366138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574857366138</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EsTest_testQueryBySelf - 2019.11.23 at 22h 27m 10s.xml">
-      <configuration name="EsTest.testQueryBySelf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EsTest_testAggs - 2019.11.23 at 22h 45m 22s.xml">
-      <configuration name="EsTest.testAggs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EsTest_testSubAggs - 2019.11.24 at 09h 08m 03s.xml">
-      <configuration name="EsTest.testSubAggs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpTests_testGet - 2019.11.24 at 20h 56m 00s.xml">
-      <configuration name="HttpTests.testGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpTests_testGet - 2019.11.24 at 20h 57m 49s.xml">
-      <configuration name="HttpTests.testGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpTests_testGetPojo - 2019.11.24 at 21h 23m 48s.xml">
-      <configuration name="HttpTests.testGetPojo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpDemoApplicationTests_httpGet - 2019.11.24 at 21h 28m 36s.xml">
-      <configuration name="HttpDemoApplicationTests.httpGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpDemoApplicationTests_httpGet - 2019.11.24 at 21h 30m 37s.xml">
-      <configuration name="HttpDemoApplicationTests.httpGet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HttpTests_testGetPojo - 2019.11.24 at 21h 31m 44s.xml">
       <configuration name="HttpTests.testGetPojo" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HttpDemoApplicationTests_httpGet - 2019.11.24 at 21h 32m 22s.xml">
       <configuration name="HttpDemoApplicationTests.httpGet" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RedisTest_redisTest - 2019.12.10 at 19h 24m 30s.xml">
+      <configuration name="RedisTest.redisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisTest - 2019.12.10 at 19h 26m 27s.xml">
+      <configuration name="RedisTest.redisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisTest - 2019.12.10 at 19h 28m 15s.xml">
+      <configuration name="RedisTest.redisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisTest - 2019.12.10 at 19h 28m 51s.xml">
+      <configuration name="RedisTest.redisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisTest - 2019.12.10 at 19h 29m 40s.xml">
+      <configuration name="RedisTest.redisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisTest - 2019.12.10 at 19h 30m 43s.xml">
+      <configuration name="RedisTest.redisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisTest - 2019.12.10 at 19h 31m 12s.xml">
+      <configuration name="RedisTest.redisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_testHash - 2019.12.10 at 19h 41m 23s.xml">
+      <configuration name="RedisTest.testHash" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47491000" />
+    <option name="totallyTimeSpent" value="50684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,10 +503,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="613" y="50" width="936" height="688" extended-state="0" />
+    <frame x="574" y="70" width="936" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.26309794" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.27448747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -517,7 +518,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32806325" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.7233202" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.18503937" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290441" />
@@ -534,7 +535,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32908848" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32801822" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
@@ -555,57 +556,10 @@
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成)" />
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成,第二天未完成)" />
     <MESSAGE value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成,第二天完成)" />
-    <option name="LAST_COMMIT_MESSAGE" value="乐优项目之前的学习内容(springboot,lucene,es,springCloud第一天内容已完成,第二天完成)" />
+    <MESSAGE value="乐优前置已完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="乐优前置已完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../apache-maven-3.6.0-bin/apache-maven-3.6.0/repository/org/springframework/data/spring-data-elasticsearch/3.1.8.RELEASE/spring-data-elasticsearch-3.1.8.RELEASE.jar!/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/main/java/cn/itcast/es/repository/GoodsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringDataEsDemo/src/test/java/cn/itcast/es/test/EsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hellospring-boot/hellospring-boot.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -923,22 +877,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/java/cn/itcast/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="220">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-demo/zuul-demo/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="224">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/cn/itcast/RedisDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/test/java/cn/itcast/dedis/test/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

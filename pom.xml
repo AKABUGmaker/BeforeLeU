@@ -14,6 +14,7 @@
         <module>SpringDataEsDemo</module>
         <module>cloud-demo</module>
         <module>http-demo</module>
+        <module>redis-demo</module>
     </modules>
 
 
